@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 // eslint-disable-next-line react/prop-types
-function Displaydata({ data }) {
+function Displaydata({ data }) 
+{
   if (!data) {
     return (
       // eslint-disable-next-line react/jsx-filename-extension
