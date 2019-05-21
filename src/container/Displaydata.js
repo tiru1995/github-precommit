@@ -34,8 +34,8 @@ function Displaydata({ data }) {
   );
 }
 
-const mapStateToProps = (state) =>
- {
+const mapStateToProps = (state) => 
+{
   // eslint-disable-next-line no-console
   console.log(state, 'state');
   return {
